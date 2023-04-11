@@ -10,11 +10,11 @@ const Loder = () => {
     },[])
     return (
        <>
-       <div className="text-center mt-10">
+       <div className="text-center my-20">
             <h1 className='text-2xl'>Featured Jobs</h1>
             <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
         </div>
-         <div className='grid grid-cols-2 mt-20 px-32 mx-auto gap-8'>
+         <div className='grid grid-cols-2 m-20 px-32 mx-auto gap-8'>
             {
                 job.map((work)=><Company key={work.id} work={work}></Company> )
             }
