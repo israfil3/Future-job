@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "company_name": "Facebook",
+        "logo_url": "https://www.facebook.com/images/fb_icon_325x325.png",
+        "description": "Facebook is a social media platform that allows people to connect with friends and family, discover new things, and share their interests and experiences.",
+        "location":"Daka bangladesh",
+        "Job-time-1": "Full time",
+        "Job-time-2": "Remote",
+        "Salary":"Salary : 1350K - 150K",
+        "job-post":"Technical Database Engineer"
+      },
+      { 
+        "id": 2,
+        "company_name": "Google",
+        "logo_url": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+        "description": "Google is a technology company that specializes in internet-related services and products, including search engines, online advertising technologies, cloud computing, software, and hardware.",
+        "location":"Daka bangladesh",
+        "Job-time-1": "Onsite",
+        "Job-time-2": "Full Time",
+        "Salary":"Salary : 80K - 120K",
+        "job-post":"Senior Product Designer"
+      },
+      { 
+        "id": 3,
+        "company_name": "Twitter",
+        "logo_url": "https://www.logo.wine/a/logo/Twitter/Twitter-Logo.wine.svg",
+        "description": "Twitter is a social media platform that enables users to share and discover what's happening in the world in real-time.",
+        "location":"Daka bangladesh",
+        "Job-time-1": "Onsite",
+        "Job-time-2": "Remote",
+         "Salary":"Salary : 160K - 110K",
+         "job-post":"Software Engineer"
+      },
+      { 
+        "id": 4,
+        "company_name": "Tesla",
+        "logo_url": "https://www.logo.wine/a/logo/Tesla_Motors/Tesla_Motors-Logo.wine.svg",
+        "description": "Tesla is a company that designs and manufactures electric vehicles, energy storage systems, and solar products.",
+        "location":"Daka bangladesh",
+        "Job-time-1": "Full time",
+        "Job-time-2": "Remote",
+        "Salary":"Salary : 100K - 150K",
+        "job-post":"Technical Database Engineer"
+      }     
+]

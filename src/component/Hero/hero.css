@@ -1,0 +1,5 @@
+.hero-area h3 {
+    background: -webkit-linear-gradient(#df16adba, #2b15d4b9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

@@ -1,0 +1,12 @@
+.nav-tag a {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.bt {
+    font-size: 18px;
+}
+.tk {
+        background: -webkit-linear-gradient(#ba4a4ac2, #d4ca15e2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
