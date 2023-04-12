@@ -7,7 +7,6 @@ const NewBtn = () => {
 
     const {idd} = useParams(); 
     const detailsdata = useLoaderData();
-    console.log(detailsdata)
     // return (
     //     <div>
     //         <h1>hello{idd}</h1>
@@ -17,7 +16,6 @@ const NewBtn = () => {
         <div className='maxw mt-20 p-24'>
             {
               detailsdata.map((data)=>{
-                console.log(data.company_name)
                const  {id,company_name,Job_time_2,logo_url,Job_time_1,Salary,job_post,location,phone,email,Address,description,Educational_Requirements,Experiences,Job_Responsibility}= data;
                 // const {addToAppliedList,appliedlist} = useContext(GlobalContext)
             //    let storeApplied = data.find((exits)=>exits.id===idd);
