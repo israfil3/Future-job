@@ -19,7 +19,7 @@ const Loder = ({loderData}) => {
             }
           {
             !seeMore && (
-                <Link onClick={SeeMoreData} className='bg-green-200 p-3 rounded w-1/2'>So Details</Link>
+                <Link onClick={SeeMoreData} className='bg-green-200 p-3 rounded w-1/2 text-center mx-96 text-2xl'>So Details</Link>
             )
           }
         </div>
