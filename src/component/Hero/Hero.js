@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../P3OLGJ1 copy 1.png'
 import './hero.css'
 import Job from '../JobNow/Job';

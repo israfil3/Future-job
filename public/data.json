@@ -8,7 +8,10 @@
         "Job_time_1": "Full time",
         "Job_time_2": "Remote",
         "Salary":"Salary : 95K - 150K",
-        "job_post":"Technical Database Engineer"
+        "job_post":"Technical Database Engineer",
+        "Job_Responsibility":"AI today is a core component of a vast range of technology used by billions of people around the world. Here at Facebook, it is part of systems that do everything from ranking posts in your News Feed to tackling hate speech and misinformation to responding to the COVID-19 pandemic. But, as with other emerging technologies, AI also raises many hard questions around issues such as privacy, fairness, accountability, and transparency.",
+        "Educational_Requirements":"Bachelor degree to complete any reputational university.",
+        "Experiences":"5-6 Years in this field."
       },
       { 
         "id": 2,
@@ -19,18 +22,25 @@
         "Job_time_1": "Onsite",
         "Job_time_2": "Full Time",
         "Salary":"Salary : 80K - 120K",
-        "job_post":"Senior Product Designer"
+        "job_post":"Senior Product Designer",
+        "Job_Responsibility":"Alphabet's corporate social responsibility strategy provides users with tools and options to protect their data and give them peace of mind when using the company's services. Through Google, Alphabet applies rules for ensuring that advertisements have minimal impact on user experience.",
+        "Educational_Requirements":"Bachelor degree to complete any reputational university.",
+        "Experiences":"1-3 Years in this field."
       },
       { 
         "id": 3,
         "company_name": "Twitter",
         "logo_url": "https://www.logo.wine/a/logo/Twitter/Twitter-Logo.wine.svg",
-        "description": "Twitter is a social media platform that enables users to share and discover what's happening in the world in real-time.",
-        "location":"Bangladesh Rajshahi",
+        "description": "Twitter is a social media platform that enables users to share and discover what's happening in the world in real-time",
+        "location":"Mlaysha",
+        "Job_Responsibility": "We help people understand healthy digital habits and online safety. We support organizations that tackle issues like bullying, abuse, and hate speech. We support initiatives that defend and respect all voices by promoting free expression and defending civil liberties..",
         "Job_time_1": "Onsite",
         "Job_time_2": "Remote",
          "Salary":"Salary : 160K - 110K",
-         "job_post":"Software Engineer"
+         "job_post":"Software Engineer",
+         "Educational_Requirements":"Bachelor degree to complete any reputational university.",
+         "Experiences":"3-6 Years in this field."
+
       },
       { 
         "id": 4,
@@ -41,6 +51,9 @@
         "Job_time_1": "Full time",
         "Job_time_2": "Remote",
         "Salary":"Salary : 100K - 150K",
-        "job_post":"Technical Database Engineer"
+        "job_post":"Technical Database Engineer",
+        "Job_Responsibility":"Tesla's purpose is to accelerate the world's transition to sustainable energy. We strive to be the best on every metric relevant to our mission to accelerate the world's transition to sustainable energy.",
+        "Educational_Requirements":"Bachelor degree to complete any reputational university.",
+        "Experiences":"2-3 Years in this field."
       }     
 ]
