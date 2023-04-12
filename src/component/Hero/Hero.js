@@ -2,7 +2,9 @@ import React from 'react';
 import logo from '../../P3OLGJ1 copy 1.png'
 import './hero.css'
 import Job from '../JobNow/Job';
+import { useLoaderData } from 'react-router-dom';
 const Hero = () => {
+    const loderData = useLoaderData();
     return (
         <>
         <div className="">
@@ -18,7 +20,7 @@ const Hero = () => {
             </div>
         </div>
             <div className="">
-                <Job></Job>
+                <Job loderData={loderData}></Job>
             </div>
         </>
     );

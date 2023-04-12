@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 import Blog from './component/Blog/Blog';
 import Hero from './component/Hero/Hero';
-import Loder from './component/LodeData/Loder';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,11 +16,14 @@ const router = createBrowserRouter([
     children:[
         {
           path:"/",
-         element:<Hero></Hero>
+          element:<Hero></Hero>,
+          loader:()=> fetch(`/data.json`)
         },
         {
-          path: "/",
+          path:"Home",
+          element:<Hero></Hero>
         },
+
         {
           path:"Blog",
           element:<Blog></Blog>

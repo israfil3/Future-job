@@ -5,7 +5,7 @@ import img3 from '../../chip 1.png'
 import img4 from '../../social-media 1.png'
 import Loder from '../LodeData/Loder';
 
-const Job = () => {
+const Job = ({loderData}) => {
     return (
         <>
         <div className='mt-10'>
@@ -36,7 +36,7 @@ const Job = () => {
                 </div>
             </div>
         </div>
-        <Loder></Loder>
+         <Loder loderData={loderData}></Loder>
         </>
     );
 };
