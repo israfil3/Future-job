@@ -5,7 +5,7 @@ import {faLocation,faMoneyBill} from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 
 const Company = ({work}) => {
-    const  {company_name,Job_time_2,logo_url,Job_time_1,Salary,job_post,location}=work;
+    const  {id,company_name,Job_time_2,logo_url,Job_time_1,Salary,job_post,location}=work;
     return (
         <div className='content text-center border rounded'>
             <img  src={logo_url} alt="" />
@@ -19,9 +19,9 @@ const Company = ({work}) => {
                 <p><span className="m-4"><FontAwesomeIcon icon={faLocation } /></span>{location}</p>
                 <p><span className="m-4"><FontAwesomeIcon icon={faMoneyBill} /></span>{Salary}</p>
             </div>
-            <button className='bg-gradient-to-r from-violet-500 to-fuchsia-500 p-3 rounded text-white mt-5'><Link>View Details</Link></button>
+            <button className='bg-gradient-to-r from-violet-500 to-fuchsia-500 p-3 rounded text-white mt-5'><Link to={`/${id}`}>View Details</Link></button>
 
-            
+
         </div>
     );
 };

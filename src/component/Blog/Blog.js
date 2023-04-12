@@ -47,8 +47,6 @@ const Blog = () => {
           useMemo returns the cached value from the previous render.
         </p>
       </div>
-Write to R. F. Rezon
-
         </div>
     );
 };

@@ -1,6 +1,12 @@
+import { Link } from 'react-router-dom';
 import Company from '../Company/Company';
+import { useState } from 'react';
 
 const Loder = ({loderData}) => {
+    let[seeMore, setSeeMore] = useState(false);
+    let SeeMoreData= () =>{
+      setSeeMore(true);
+    }
     return (
        <>
        <div className="text-center my-20">
@@ -9,8 +15,13 @@ const Loder = ({loderData}) => {
         </div>
          <div className='grid grid-cols-2 m-20 px-32 mx-auto gap-8'>
             {
-                loderData.map((work)=><Company key={work.id} work={work}></Company> )
+                loderData.slice(0,seeMore?6:4).map((work)=><Company key={work.id} work={work}></Company> )
             }
+          {
+            !seeMore && (
+                <Link onClick={SeeMoreData} className='bg-green-200 p-3 rounded w-1/2'>So Details</Link>
+            )
+          }
         </div>
        </>
     );

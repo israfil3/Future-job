@@ -11,10 +11,13 @@ import Blog from './component/Blog/Blog';
 import Hero from './component/Hero/Hero';
 import Company from './component/Company/Company';
 import Loader from './loader/Loader';
+import Err from './err/Err';
+import NewBtn from './component/newBtn/NewBtn';
 const router = createBrowserRouter([
   {
     path: "/",
     element:<App></App>,
+    errorElement:<Err></Err>,
     children:[
         {
           path:"/",
@@ -26,13 +29,18 @@ const router = createBrowserRouter([
           element:<Hero></Hero>
         },
         {
+          path:"/:idd",
+          element:<NewBtn></NewBtn>,
+          loader:()=> fetch(`/data.json`)
+        },
+        {
           path:"Blog",
           element:<Blog></Blog>
         },
         {
           path:"Statistics",
           element:<Loader></Loader>
-        }
+        },
   ]
   },
 ]);
