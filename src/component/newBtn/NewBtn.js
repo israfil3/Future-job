@@ -20,7 +20,6 @@ const NewBtn = () => {
                 // const {addToAppliedList,appliedlist} = useContext(GlobalContext)
             //    let storeApplied = data.find((exits)=>exits.id===idd);
             //    console.log(storeApplied);
-            console.log(idd)
                 if(data.id==idd){
                     return <><h1 className='text-center text-3xl m-14'>JobDetails</h1> 
                     <div className='grid grid-cols-2 gap-24' key={data.id}>
